@@ -15,10 +15,13 @@ Don't worry if these words mean nothing to you at this point, you will make sens
 started.
 
 BIG IDEA 
+
 Basics of OOP programming on JS.
 
 ESSENTIAL QUESTION
+
 How to write code according to OOP principles?
 
 CHALLENGE
+
 Learn to use objects
