@@ -4,7 +4,7 @@ let validator = {
             if (!Number.isInteger(value)) {
                 throw new TypeError( 'The age is not an integer' );
             } else if (Number(value) > 200 || Number(value) < 0) {
-                throw new TypeError( 'The age is invalid' );                    // Don't understand why it's not work!?
+                throw new RangeError( 'The age is invalid' );                    // Don't understand why it's not work!?
             } else {
                 console.log( `Setting value '${value}' to '${prop}'` );
                 obj[prop] = value;
